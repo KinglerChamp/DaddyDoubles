@@ -684,7 +684,7 @@ var RBY = {
         bs: { hp: 70, at: 110, df: 80, sp: 105, sl: 55 },
         weightkg: 56
     },
-    Seadra: { types: ['Water'], bs: { hp: 55, at: 65, df: 95, sp: 85, sl: 95 }, weightkg: 25 },
+    Seadra: { types: ['Water', 'Dragon'], bs: { hp: 55, at: 65, df: 95, sp: 85, sl: 95 }, weightkg: 25 },
     Seaking: { types: ['Water'], bs: { hp: 80, at: 92, df: 65, sp: 68, sl: 80 }, weightkg: 39 },
     Seel: {
         types: ['Water'],
@@ -781,12 +781,12 @@ var RBY = {
     },
     Victreebel: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 80, at: 105, df: 65, sp: 70, sl: 100 },
+        bs: { hp: 80, at: 105, df: 65, sp: 80, sl: 100 },
         weightkg: 15.5
     },
     Vileplume: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 75, at: 80, df: 85, sp: 50, sl: 100 },
+        bs: { hp: 78, at: 80, df: 85, sp: 50, sl: 100 },
         weightkg: 18.6
     },
     Voltorb: {
@@ -826,7 +826,7 @@ var RBY = {
     },
     Wigglytuff: {
         types: ['Normal'],
-        bs: { hp: 140, at: 70, df: 45, sp: 45, sl: 50 },
+        bs: { hp: 140, at: 125, df: 85, sp: 30, sl: 50 },
         weightkg: 12
     },
     Zapdos: {
@@ -983,14 +983,14 @@ var GSC_PATCH = {
     Venonat: { bs: { sa: 40, sd: 55 } },
     Venusaur: { bs: { sa: 105, sd: 100 } },
     Victreebel: { bs: { sa: 100, sd: 60 } },
-    Vileplume: { bs: { sa: 100, sd: 90 } },
+    Vileplume: { bs: { sa: 117, sd: 90 } },
     Voltorb: { bs: { sa: 55, sd: 55 }, gender: 'N' },
     Vulpix: { bs: { sa: 50, sd: 65 } },
     Wartortle: { bs: { sa: 65, sd: 80 } },
     Weedle: { bs: { sa: 20, sd: 20 } },
     Weepinbell: { bs: { sa: 85, sd: 45 } },
     Weezing: { bs: { sa: 85, sd: 70 } },
-    Wigglytuff: { bs: { sa: 75, sd: 50 } },
+    Wigglytuff: { bs: { sa: 55, sd: 65 } },
     Zapdos: { bs: { sa: 125, sd: 90 }, gender: 'N' },
     Zubat: { bs: { sa: 30, sd: 40 } },
     Aipom: { types: ['Normal'], bs: { hp: 55, at: 70, df: 55, sa: 40, sd: 55, sp: 85 }, weightkg: 11.5 },
@@ -1248,7 +1248,7 @@ var GSC_PATCH = {
     },
     Meganium: {
         types: ['Grass'],
-        bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
+        bs: { hp: 85, at: 82, df: 100, sa: 83, sd: 110, sp: 80 },
         weightkg: 100.5
     },
     Miltank: {
@@ -5100,6 +5100,7 @@ var XY_PATCH = {
     Marill: { types: ['Water', 'Fairy'] },
     Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
+    Meganium: { types: ['Grass', 'Fairy'] }
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
     'Mime Jr.': { types: ['Psychic', 'Fairy'] },
@@ -5144,9 +5145,9 @@ var XY_PATCH = {
     Unfezant: { bs: { at: 115 } },
     Venusaur: { otherFormes: ['Venusaur-Mega'] },
     Victreebel: { bs: { sd: 70 } },
-    Vileplume: { bs: { sa: 110 } },
+    Vileplume: { bs: { sa: 117 } },
     Whimsicott: { types: ['Grass', 'Fairy'] },
-    Wigglytuff: { types: ['Normal', 'Fairy'], bs: { sa: 85 } },
+    Wigglytuff: { types: ['Normal', 'Fairy'], bs: { sa: 55 } },
     'Aegislash-Blade': {
         types: ['Steel', 'Ghost'],
         bs: { hp: 60, at: 150, df: 50, sa: 150, sd: 50, sp: 60 },
