@@ -975,7 +975,7 @@ var GSC_PATCH = {
     Starmie: { bs: { sa: 100, sd: 85 }, gender: 'N' },
     Staryu: { bs: { sa: 70, sd: 55 }, gender: 'N' },
     Tangela: { bs: { sa: 100, sd: 40 } },
-    Tauros: { bs: { sa: 40, sd: 70 } },
+    Tauros: { bs: { sa: 40, sd: 70 }, nfe: true },
     Tentacool: { bs: { sa: 50, sd: 100 } },
     Tentacruel: { bs: { sa: 80, sd: 120 } },
     Vaporeon: { bs: { sa: 110, sd: 95 } },
@@ -2225,7 +2225,8 @@ var ADV_PATCH = {
         types: ['Water'],
         bs: { hp: 43, at: 30, df: 55, sa: 40, sd: 65, sp: 97 },
         weightkg: 8.7,
-        abilities: { 0: 'Swift Swim' }
+        abilities: { 0: 'Swift Swim' }, 
+        nfe: true
     },
     Makuhita: {
         types: ['Fighting'],
