@@ -106,8 +106,8 @@ var RBY = {
         nfe: true
     },
     Blastoise: {
-        types: ['Water'],
-        bs: { hp: 79, at: 83, df: 100, sp: 78, sl: 85 },
+        types: ['Water', 'Steel'],
+        bs: { hp: 79, at: 83, df: 110, sp: 78, sl: 85 },
         weightkg: 85.5
     },
     Bulbasaur: {
@@ -149,7 +149,7 @@ var RBY = {
         weightkg: 19,
         nfe: true
     },
-    Clefable: { types: ['Normal'], bs: { hp: 95, at: 70, df: 73, sp: 60, sl: 85 }, weightkg: 40 },
+    Clefable: { types: ['Normal'], bs: { hp: 95, at: 70, df: 80, sp: 60, sl: 85 }, weightkg: 40 },
     Clefairy: {
         types: ['Normal'],
         bs: { hp: 70, at: 45, df: 48, sp: 35, sl: 60 },
@@ -642,7 +642,7 @@ var RBY = {
     },
     Raichu: {
         types: ['Electric'],
-        bs: { hp: 60, at: 90, df: 55, sp: 100, sl: 90 },
+        bs: { hp: 75, at: 80, df: 55, sp: 100, sl: 90 },
         weightkg: 30
     },
     Rapidash: { types: ['Fire'], bs: { hp: 65, at: 100, df: 70, sp: 105, sl: 80 }, weightkg: 95 },
@@ -776,7 +776,7 @@ var RBY = {
     },
     Venusaur: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 80, at: 82, df: 83, sp: 80, sl: 100 },
+        bs: { hp: 90, at: 82, df: 83, sp: 80, sl: 100 },
         weightkg: 100
     },
     Victreebel: {
@@ -855,7 +855,7 @@ var GSC_PATCH = {
     Butterfree: { bs: { sa: 80, sd: 80 } },
     Caterpie: { bs: { sa: 20, sd: 20 } },
     Chansey: { bs: { sa: 35, sd: 105 }, nfe: true },
-    Charizard: { bs: { sa: 109, sd: 85 } },
+    Charizard: { bs: { sa: 115, sd: 85 } },
     Charmander: { bs: { sa: 60, sd: 50 } },
     Charmeleon: { bs: { sa: 80, sd: 65 } },
     Clefable: { bs: { sa: 85, sd: 90 } },
@@ -954,7 +954,7 @@ var GSC_PATCH = {
     Porygon: { bs: { sa: 85, sd: 75 }, nfe: true, gender: 'N' },
     Primeape: { bs: { sa: 60, sd: 70 } },
     Psyduck: { bs: { sa: 65, sd: 50 } },
-    Raichu: { bs: { sa: 90, sd: 80 } },
+    Raichu: { bs: { sa: 100, sd: 80 } },
     Rapidash: { bs: { sa: 80, sd: 80 } },
     Raticate: { bs: { sa: 50, sd: 70 } },
     Rattata: { bs: { sa: 25, sd: 35 } },
@@ -981,7 +981,7 @@ var GSC_PATCH = {
     Vaporeon: { bs: { sa: 110, sd: 95 } },
     Venomoth: { bs: { sa: 90, sd: 75 } },
     Venonat: { bs: { sa: 40, sd: 55 } },
-    Venusaur: { bs: { sa: 100, sd: 100 } },
+    Venusaur: { bs: { sa: 105, sd: 100 } },
     Victreebel: { bs: { sa: 100, sd: 60 } },
     Vileplume: { bs: { sa: 100, sd: 90 } },
     Voltorb: { bs: { sa: 55, sd: 55 }, gender: 'N' },
@@ -5067,7 +5067,7 @@ var XY_PATCH = {
     Butterfree: { bs: { sa: 90 } },
     Camerupt: { otherFormes: ['Camerupt-Mega'] },
     Charizard: { otherFormes: ['Charizard-Mega-X', 'Charizard-Mega-Y'] },
-    Clefable: { types: ['Fairy'], bs: { sa: 95 } },
+    Clefable: { types: ['Fairy'], bs: { sa: 102 } },
     Clefairy: { types: ['Fairy'] },
     Cleffa: { types: ['Fairy'] },
     Cottonee: { types: ['Grass', 'Fairy'] },
