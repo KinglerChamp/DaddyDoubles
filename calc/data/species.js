@@ -3026,7 +3026,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Blaze' }
     },
     Chingling: {
-        types: ['Psychic'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 45, at: 30, df: 50, sa: 65, sd: 50, sp: 45 },
         weightkg: 0.6,
         abilities: { 0: 'Levitate' },
@@ -3120,12 +3120,12 @@ var DPP_PATCH = {
     },
     Dusknoir: {
         types: ['Ghost'],
-        bs: { hp: 45, at: 100, df: 135, sa: 65, sd: 135, sp: 45 },
+        bs: { hp: 45, at: 100, df: 135, sa: 65, sd: 135, sp: 70 },
         weightkg: 106.6,
         abilities: { 0: 'Pressure' }
     },
     Electivire: {
-        types: ['Electric'],
+        types: ['Electric', 'Fighting'],
         bs: { hp: 75, at: 123, df: 67, sa: 95, sd: 85, sp: 95 },
         weightkg: 138.6,
         abilities: { 0: 'Motor Drive' }
@@ -3819,7 +3819,7 @@ var DPP_PATCH = {
         baseSpecies: 'Wormadam'
     },
     Yanmega: {
-        types: ['Bug', 'Flying'],
+        types: ['Bug', 'Dragon'],
         bs: { hp: 86, at: 76, df: 86, sa: 116, sd: 56, sp: 95 },
         weightkg: 51.5,
         abilities: { 0: 'Speed Boost' }
@@ -4141,8 +4141,8 @@ var BW_PATCH = {
         abilities: { 0: 'Telepathy' }
     },
     Emboar: {
-        types: ['Fire', 'Fighting'],
-        bs: { hp: 110, at: 123, df: 65, sa: 100, sd: 65, sp: 65 },
+        types: ['Fire', 'Rock'],
+        bs: { hp: 110, at: 123, df: 80, sa: 90, sd: 72, sp: 65 },
         weightkg: 150,
         abilities: { 0: 'Blaze' }
     },
@@ -4548,7 +4548,7 @@ var BW_PATCH = {
     },
     Musharna: {
         types: ['Psychic'],
-        bs: { hp: 116, at: 55, df: 85, sa: 107, sd: 95, sp: 29 },
+        bs: { hp: 116, at: 55, df: 92, sa: 107, sd: 101, sp: 29 },
         weightkg: 60.5,
         abilities: { 0: 'Forewarn' }
     },
@@ -4670,8 +4670,8 @@ var BW_PATCH = {
         abilities: { 0: 'Keen Eye' }
     },
     Samurott: {
-        types: ['Water'],
-        bs: { hp: 95, at: 100, df: 85, sa: 108, sd: 70, sp: 70 },
+        types: ['Water', 'Fighting'],
+        bs: { hp: 95, at: 105, df: 85, sa: 108, sd: 70, sp: 77 },
         weightkg: 94.6,
         abilities: { 0: 'Torrent' }
     },
@@ -4727,8 +4727,8 @@ var BW_PATCH = {
         abilities: { 0: 'Swift Swim' }
     },
     Serperior: {
-        types: ['Grass'],
-        bs: { hp: 75, at: 75, df: 95, sa: 75, sd: 95, sp: 113 },
+        types: ['Grass', 'Poison'],
+        bs: { hp: 75, at: 75, df: 95, sa: 79, sd: 95, sp: 121 },
         weightkg: 63,
         abilities: { 0: 'Overgrow' }
     },
@@ -4761,19 +4761,19 @@ var BW_PATCH = {
     },
     Simipour: {
         types: ['Water'],
-        bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
+        bs: { hp: 78, at: 98, df: 73, sa: 98, sd: 73, sp: 80 },
         weightkg: 29,
         abilities: { 0: 'Gluttony' }
     },
     Simisage: {
         types: ['Grass'],
-        bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
+        bs: { hp: 75, at: 118, df: 63, sa: 78, sd: 63, sp: 103 },
         weightkg: 30.5,
         abilities: { 0: 'Gluttony' }
     },
     Simisear: {
         types: ['Fire'],
-        bs: { hp: 75, at: 98, df: 63, sa: 98, sd: 63, sp: 101 },
+        bs: { hp: 75, at: 78, df: 63, sa: 118, sd: 67, sp: 99 },
         weightkg: 28,
         abilities: { 0: 'Gluttony' }
     },
@@ -4818,7 +4818,7 @@ var BW_PATCH = {
     },
     Swoobat: {
         types: ['Psychic', 'Flying'],
-        bs: { hp: 67, at: 57, df: 55, sa: 77, sd: 55, sp: 114 },
+        bs: { hp: 77, at: 57, df: 55, sa: 77, sd: 55, sp: 114 },
         weightkg: 10.5,
         abilities: { 0: 'Unaware' }
     },
@@ -5056,7 +5056,7 @@ var XY_PATCH = {
     Alakazam: { bs: { sd: 95 }, otherFormes: ['Alakazam-Mega'] },
     Altaria: { otherFormes: ['Altaria-Mega'] },
     Ampharos: { bs: { df: 85 }, otherFormes: ['Ampharos-Mega'] },
-    Audino: { otherFormes: ['Audino-Mega'] },
+    Audino: { types: ['Normal', 'Fairy'], otherFormes: ['Audino-Mega'] },
     Azumarill: { types: ['Water', 'Fairy'], bs: { sa: 60 } },
     Azurill: { types: ['Normal', 'Fairy'] },
     Banette: { otherFormes: ['Banette-Mega'] },
@@ -5098,6 +5098,7 @@ var XY_PATCH = {
     Leavanny: { bs: { sd: 80 } },
     Lopunny: { otherFormes: ['Lopunny-Mega'] },
     Lucario: { otherFormes: ['Lucario-Mega'] },
+    Lumineon: { types: ['Water', 'Fairy'] },
     Manectric: { otherFormes: ['Manectric-Mega'] },
     Marill: { types: ['Water', 'Fairy'] },
     Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
