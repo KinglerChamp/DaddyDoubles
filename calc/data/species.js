@@ -1073,7 +1073,7 @@ var GSC_PATCH = {
     },
     Delibird: {
         types: ['Ice', 'Flying'],
-        bs: { hp: 45, at: 55, df: 45, sa: 65, sd: 45, sp: 75 },
+        bs: { hp: 45, at: 95, df: 45, sa: 65, sd: 45, sp: 110 },
         weightkg: 16
     },
     Donphan: {
@@ -1082,7 +1082,7 @@ var GSC_PATCH = {
         weightkg: 120
     },
     Dunsparce: {
-        types: ['Normal'],
+        types: ['Normal', 'Ground'],
         bs: { hp: 100, at: 70, df: 70, sa: 65, sd: 65, sp: 45 },
         weightkg: 14
     },
@@ -1278,7 +1278,7 @@ var GSC_PATCH = {
         weightkg: 40.8
     },
     Octillery: {
-        types: ['Water'],
+        types: ['Water', 'Poison'],
         bs: { hp: 75, at: 105, df: 75, sa: 105, sd: 75, sp: 45 },
         weightkg: 28.5
     },
@@ -1492,7 +1492,7 @@ var GSC_PATCH = {
     Umbreon: { types: ['Dark'], bs: { hp: 95, at: 65, df: 110, sa: 60, sd: 130, sp: 65 }, weightkg: 27 },
     Unown: {
         types: ['Psychic'],
-        bs: { hp: 48, at: 72, df: 48, sa: 72, sd: 48, sp: 48 },
+        bs: { hp: 48, at: 72, df: 48, sa: 99, sd: 60, sp: 48 },
         weightkg: 5,
         gender: 'N'
     },
@@ -1865,7 +1865,7 @@ var ADV_PATCH = {
     },
     Blaziken: {
         types: ['Fire', 'Fighting'],
-        bs: { hp: 80, at: 120, df: 70, sa: 110, sd: 70, sp: 80 },
+        bs: { hp: 80, at: 120, df: 73, sa: 110, sd: 73, sp: 84 },
         weightkg: 52,
         abilities: { 0: 'Blaze' }
     },
@@ -1984,7 +1984,7 @@ var ADV_PATCH = {
     },
     Delcatty: {
         types: ['Normal'],
-        bs: { hp: 70, at: 65, df: 65, sa: 55, sd: 55, sp: 70 },
+        bs: { hp: 90, at: 85, df: 65, sa: 85, sd: 65, sp: 70 },
         weightkg: 32.6,
         abilities: { 0: 'Cute Charm' }
     },
@@ -2035,7 +2035,7 @@ var ADV_PATCH = {
     },
     Dustox: {
         types: ['Bug', 'Poison'],
-        bs: { hp: 60, at: 50, df: 70, sa: 50, sd: 90, sp: 65 },
+        bs: { hp: 70, at: 50, df: 70, sa: 50, sd: 90, sp: 65 },
         weightkg: 31.6,
         abilities: { 0: 'Shield Dust' }
     },
@@ -2091,7 +2091,7 @@ var ADV_PATCH = {
         gender: 'N'
     },
     Grovyle: {
-        types: ['Grass'],
+        types: ['Grass', 'Dragon'],
         bs: { hp: 50, at: 65, df: 45, sa: 85, sd: 65, sp: 95 },
         weightkg: 21.6,
         nfe: true,
@@ -2210,7 +2210,7 @@ var ADV_PATCH = {
     },
     Ludicolo: {
         types: ['Water', 'Grass'],
-        bs: { hp: 80, at: 70, df: 70, sa: 90, sd: 100, sp: 70 },
+        bs: { hp: 100, at: 70, df: 70, sa: 90, sd: 100, sp: 70 },
         weightkg: 55,
         abilities: { 0: 'Swift Swim' }
     },
@@ -2425,8 +2425,8 @@ var ADV_PATCH = {
         abilities: { 0: 'Intimidate' }
     },
     Sceptile: {
-        types: ['Grass'],
-        bs: { hp: 70, at: 85, df: 65, sa: 105, sd: 85, sp: 120 },
+        types: ['Grass', 'Dragon'],
+        bs: { hp: 70, at: 89, df: 65, sa: 111, sd: 85, sp: 120 },
         weightkg: 52.2,
         abilities: { 0: 'Overgrow' }
     },
@@ -2472,7 +2472,7 @@ var ADV_PATCH = {
     },
     Shiftry: {
         types: ['Grass', 'Dark'],
-        bs: { hp: 90, at: 100, df: 60, sa: 90, sd: 60, sp: 80 },
+        bs: { hp: 90, at: 100, df: 60, sa: 90, sd: 60, sp: 103 },
         weightkg: 59.6,
         abilities: { 0: 'Chlorophyll' }
     },
@@ -2573,7 +2573,7 @@ var ADV_PATCH = {
     },
     Swampert: {
         types: ['Water', 'Ground'],
-        bs: { hp: 100, at: 110, df: 90, sa: 85, sd: 90, sp: 60 },
+        bs: { hp: 105, at: 110, df: 90, sa: 85, sd: 90, sp: 60 },
         weightkg: 81.9,
         abilities: { 0: 'Torrent' }
     },
@@ -5072,6 +5072,7 @@ var XY_PATCH = {
     Clefairy: { types: ['Fairy'] },
     Cleffa: { types: ['Fairy'] },
     Cottonee: { types: ['Grass', 'Fairy'] },
+    Delcatty: { types: ['Normal', 'Fairy'] },
     Exploud: { bs: { sd: 73 } },
     Gallade: { otherFormes: ['Gallade-Mega'] },
     Garchomp: { otherFormes: ['Garchomp-Mega'] },
@@ -6220,7 +6221,7 @@ var SM_PATCH = {
     'Crucibelle-Mega': { bs: { sa: 91, sp: 108 } },
     Crustle: { bs: { at: 105 } },
     Cryogonal: { bs: { hp: 80, df: 50 } },
-    Delcatty: { bs: { sp: 90 } },
+    Delcatty: { bs: { sp: 110 } },
     Diglett: { otherFormes: ['Diglett-Alola'] },
     Dodrio: { bs: { sp: 110 } },
     Dugtrio: { bs: { at: 100 }, otherFormes: ['Dugtrio-Alola'] },
