@@ -1117,6 +1117,7 @@ var DPP_PATCH = {
         bp: 120,
         type: 'Grass',
         makesContact: true,
+        recoil: [25, 100],
         category: 'Physical'
     },
     'Psycho Cut': { bp: 80, type: 'Psychic', category: 'Physical' },
