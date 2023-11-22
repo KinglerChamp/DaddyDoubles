@@ -5100,7 +5100,6 @@ var XY_PATCH = {
     Marill: { types: ['Water', 'Fairy'] },
     Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
-    Meganium: { types: ['Grass', 'Fairy'] },
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
     'Mime Jr.': { types: ['Psychic', 'Fairy'] },
