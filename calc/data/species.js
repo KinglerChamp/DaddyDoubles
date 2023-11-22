@@ -3833,7 +3833,7 @@ var BW_PATCH = {
     'Rotom-Mow': { types: ['Electric', 'Grass'] },
     'Rotom-Wash': { types: ['Electric', 'Water'] },
     Accelgor: {
-        types: ['Bug'],
+        types: ['Bug', 'Ghost'],
         bs: { hp: 80, at: 70, df: 40, sa: 100, sd: 60, sp: 145 },
         weightkg: 25.3,
         abilities: { 0: 'Hydration' }
@@ -3937,7 +3937,7 @@ var BW_PATCH = {
     },
     Bouffalant: {
         types: ['Normal'],
-        bs: { hp: 95, at: 110, df: 95, sa: 40, sd: 95, sp: 55 },
+        bs: { hp: 112, at: 115, df: 95, sa: 40, sd: 95, sp: 80 },
         weightkg: 94.6,
         abilities: { 0: 'Reckless' }
     },
@@ -3981,7 +3981,7 @@ var BW_PATCH = {
     },
     Cinccino: {
         types: ['Normal'],
-        bs: { hp: 75, at: 95, df: 60, sa: 65, sd: 60, sp: 115 },
+        bs: { hp: 75, at: 103, df: 67, sa: 65, sd: 60, sp: 130 },
         weightkg: 7.5,
         abilities: { 0: 'Cute Charm' }
     },
@@ -4088,7 +4088,7 @@ var BW_PATCH = {
         abilities: { 0: 'Sand Rush' }
     },
     Druddigon: {
-        types: ['Dragon'],
+        types: ['Dragon', 'Fighting'],
         bs: { hp: 77, at: 120, df: 90, sa: 60, sd: 90, sp: 48 },
         weightkg: 139,
         abilities: { 0: 'Rough Skin' }
@@ -4461,7 +4461,7 @@ var BW_PATCH = {
     },
     Lilligant: {
         types: ['Grass'],
-        bs: { hp: 70, at: 60, df: 75, sa: 110, sd: 75, sp: 90 },
+        bs: { hp: 70, at: 60, df: 75, sa: 115, sd: 75, sp: 105 },
         weightkg: 16.3,
         abilities: { 0: 'Chlorophyll' }
     },
@@ -4492,7 +4492,7 @@ var BW_PATCH = {
         abilities: { 0: 'Big Pecks' }
     },
     Maractus: {
-        types: ['Grass'],
+        types: ['Grass', 'Fire'],
         bs: { hp: 75, at: 86, df: 67, sa: 106, sd: 67, sp: 60 },
         weightkg: 28,
         abilities: { 0: 'Water Absorb' }
@@ -4986,7 +4986,7 @@ var BW_PATCH = {
     },
     Whimsicott: {
         types: ['Grass'],
-        bs: { hp: 60, at: 67, df: 85, sa: 77, sd: 75, sp: 116 },
+        bs: { hp: 72, at: 67, df: 85, sa: 85, sd: 75, sp: 116 },
         weightkg: 6.6,
         abilities: { 0: 'Prankster' }
     },
@@ -5072,6 +5072,7 @@ var XY_PATCH = {
     Clefairy: { types: ['Fairy'] },
     Cleffa: { types: ['Fairy'] },
     Cottonee: { types: ['Grass', 'Fairy'] },
+    Cryogonal: { types: ['Ice', 'Fairy'] },
     Delcatty: { types: ['Normal', 'Fairy'] },
     Exploud: { bs: { sd: 73 } },
     Gallade: { otherFormes: ['Gallade-Mega'] },
@@ -5257,7 +5258,7 @@ var XY_PATCH = {
     },
     Chesnaught: {
         types: ['Grass', 'Fighting'],
-        bs: { hp: 88, at: 107, df: 122, sa: 74, sd: 75, sp: 64 },
+        bs: { hp: 88, at: 109, df: 130, sa: 74, sd: 75, sp: 64 },
         weightkg: 90,
         abilities: { 0: 'Overgrow' }
     },
@@ -5304,7 +5305,7 @@ var XY_PATCH = {
     },
     Delphox: {
         types: ['Fire', 'Psychic'],
-        bs: { hp: 75, at: 69, df: 72, sa: 114, sd: 100, sp: 104 },
+        bs: { hp: 81, at: 69, df: 72, sa: 114, sd: 100, sp: 104 },
         weightkg: 39,
         abilities: { 0: 'Blaze' }
     },
@@ -5385,7 +5386,7 @@ var XY_PATCH = {
         baseSpecies: 'Floette'
     },
     Florges: {
-        types: ['Fairy'],
+        types: ['Fairy', 'Grass'],
         bs: { hp: 78, at: 65, df: 68, sa: 112, sd: 154, sp: 75 },
         weightkg: 10,
         abilities: { 0: 'Flower Veil' }
@@ -5459,7 +5460,7 @@ var XY_PATCH = {
     },
     Greninja: {
         types: ['Water', 'Dark'],
-        bs: { hp: 72, at: 95, df: 67, sa: 103, sd: 71, sp: 122 },
+        bs: { hp: 72, at: 95, df: 69, sa: 103, sd: 71, sp: 130 },
         weightkg: 40,
         abilities: { 0: 'Torrent' }
     },
@@ -5470,8 +5471,8 @@ var XY_PATCH = {
         abilities: { 0: 'Limber' }
     },
     Heliolisk: {
-        types: ['Electric', 'Normal'],
-        bs: { hp: 62, at: 55, df: 52, sa: 109, sd: 94, sp: 109 },
+        types: ['Electric', 'Fire'],
+        bs: { hp: 65, at: 55, df: 62, sa: 115, sd: 94, sp: 109 },
         weightkg: 21,
         abilities: { 0: 'Dry Skin' }
     },
