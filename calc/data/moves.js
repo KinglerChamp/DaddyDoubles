@@ -823,7 +823,7 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
-    Chatter: { bp: 60, type: 'Flying', isSound: true, category: 'Special' },
+    Chatter: { bp: 75, type: 'Flying', isSound: true, category: 'Special' },
     Copycat: { bp: 0, type: 'Normal' },
     'Crush Grip': {
         bp: 0,
@@ -833,7 +833,7 @@ var DPP_PATCH = {
     },
     Defog: { bp: 0, type: 'Flying' },
     'Double Hit': {
-        bp: 35,
+        bp: 40,
         type: 'Normal',
         multihit: 2,
         makesContact: true,
@@ -934,7 +934,7 @@ var DPP_PATCH = {
         category: 'Physical'
     },
     'Wood Hammer': {
-        bp: 120,
+        bp: 130,
         type: 'Grass',
         recoil: [1, 3],
         makesContact: true,
@@ -1371,7 +1371,7 @@ var BW_PATCH = {
     },
     'Simple Beam': { bp: 0, type: 'Normal' },
     'Sky Drop': {
-        bp: 60,
+        bp: 85,
         type: 'Flying',
         makesContact: true,
         category: 'Physical'
@@ -1418,7 +1418,7 @@ var BW_PATCH = {
     'Wide Guard': { bp: 0, type: 'Rock', priority: 3 },
     'Wonder Room': { bp: 0, type: 'Psychic' },
     'Ally Switch': { bp: 0, type: 'Psychic', priority: 1 },
-    'Flame Burst': { bp: 70, type: 'Fire', category: 'Special' },
+    'Flame Burst': { bp: 75, type: 'Fire', category: 'Special' },
     'Heavy Slam': {
         bp: 0,
         type: 'Steel',
@@ -1463,7 +1463,7 @@ var BW_PATCH = {
         secondaries: true
     },
     'Acid Spray': {
-        bp: 40,
+        bp: 55,
         type: 'Poison',
         category: 'Special',
         secondaries: true
@@ -1524,7 +1524,7 @@ var BW_PATCH = {
         category: 'Physical'
     },
     Electroweb: {
-        bp: 55,
+        bp: 60,
         type: 'Electric',
         target: 'allAdjacentFoes',
         category: 'Special',
@@ -1657,7 +1657,7 @@ var BW_PATCH = {
     },
     Venoshock: { bp: 65, type: 'Poison', category: 'Special' },
     'Wild Charge': {
-        bp: 90,
+        bp: 120,
         type: 'Electric',
         recoil: [1, 4],
         makesContact: true,
@@ -1676,7 +1676,7 @@ var XY_PATCH = {
     Chatter: { bp: 65 },
     'Egg Bomb': { isBullet: true },
     'Follow Me': { priority: 2 },
-    Hurricane: { bp: 110 },
+    Hurricane: { bp: 120 },
     'Hidden Power': { bp: 60 },
     'Hidden Power Bug': { bp: 60 },
     'Hidden Power Dark': { bp: 60 },
@@ -1772,7 +1772,7 @@ var XY_PATCH = {
         secondaries: true
     },
     'Fell Stinger': {
-        bp: 30,
+        bp: 40,
         type: 'Bug',
         makesContact: true,
         category: 'Physical'
@@ -1804,7 +1804,7 @@ var XY_PATCH = {
         secondaries: true
     },
     'Parabolic Charge': {
-        bp: 50,
+        bp: 75,
         type: 'Electric',
         drain: [1, 2],
         target: 'allAdjacent',
@@ -1823,7 +1823,7 @@ var XY_PATCH = {
     'Thousand Arrows': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Thousand Waves': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Water Shuriken': {
-        bp: 15,
+        bp: 20,
         type: 'Water',
         multihit: [2, 5],
         priority: 1,
@@ -1907,7 +1907,7 @@ var XY_PATCH = {
         category: 'Special',
         secondaries: true
     },
-    'Happy Hour': { bp: 0, type: 'Normal' },
+    'Happy Hour': { bp: 60, type: 'Normal' },
     'Hold Back': {
         bp: 40,
         type: 'Normal',
@@ -1915,7 +1915,7 @@ var XY_PATCH = {
         category: 'Physical'
     },
     'Hold Hands': { bp: 0, type: 'Normal' },
-    Infestation: { bp: 20, type: 'Bug', makesContact: true, category: 'Special' },
+    Infestation: { bp: 40, type: 'Bug', makesContact: true, category: 'Special' },
     'Magnetic Flux': { bp: 0, type: 'Electric' },
     'Mat Block': { bp: 0, type: 'Fighting' },
     Moonblast: {
