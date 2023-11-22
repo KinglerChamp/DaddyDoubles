@@ -1001,7 +1001,7 @@ var GSC_PATCH = {
     },
     Ariados: {
         types: ['Bug', 'Poison'],
-        bs: { hp: 70, at: 90, df: 70, sa: 60, sd: 60, sp: 40 },
+        bs: { hp: 70, at: 90, df: 70, sa: 60, sd: 60, sp: 75 },
         weightkg: 33.5
     },
     Azumarill: {
@@ -1017,7 +1017,7 @@ var GSC_PATCH = {
     },
     Bellossom: {
         types: ['Grass'],
-        bs: { hp: 75, at: 80, df: 85, sa: 90, sd: 100, sp: 50 },
+        bs: { hp: 90, at: 80, df: 85, sa: 90, sd: 100, sp: 50 },
         weightkg: 5.8
     },
     Blissey: {
@@ -1104,8 +1104,8 @@ var GSC_PATCH = {
         weightkg: 26.5
     },
     Feraligatr: {
-        types: ['Water'],
-        bs: { hp: 85, at: 105, df: 100, sa: 79, sd: 83, sp: 78 },
+        types: ['Water', 'Dark'],
+        bs: { hp: 89, at: 105, df: 100, sa: 79, sd: 84, sp: 78 },
         weightkg: 88.8
     },
     Flaaffy: {
@@ -1434,12 +1434,12 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Sunflora: {
-        types: ['Grass'],
-        bs: { hp: 75, at: 75, df: 55, sa: 105, sd: 85, sp: 30 },
+        types: ['Grass', 'Fire'],
+        bs: { hp: 103, at: 75, df: 67, sa: 130, sd: 95, sp: 30 },
         weightkg: 8.5
     },
     Sunkern: {
-        types: ['Grass'],
+        types: ['Grass', 'Fire'],
         bs: { hp: 30, at: 30, df: 30, sa: 30, sd: 30, sp: 30 },
         weightkg: 1.8,
         nfe: true
@@ -1474,8 +1474,8 @@ var GSC_PATCH = {
         nfe: true
     },
     Typhlosion: {
-        types: ['Fire'],
-        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        types: ['Fire', 'Poison'],
+        bs: { hp: 78, at: 80, df: 78, sa: 109, sd: 85, sp: 110 },
         weightkg: 79.5
     },
     Tyranitar: {
@@ -5062,7 +5062,7 @@ var XY_PATCH = {
     Banette: { otherFormes: ['Banette-Mega'] },
     Beautifly: { bs: { sa: 100 } },
     Beedrill: { bs: { at: 90 }, otherFormes: ['Beedrill-Mega'] },
-    Bellossom: { bs: { df: 95 } },
+    Bellossom: { bs: { df: 100 } },
     Blastoise: { otherFormes: ['Blastoise-Mega'] },
     Blaziken: { otherFormes: ['Blaziken-Mega'] },
     Butterfree: { bs: { sa: 90 } },
@@ -5105,6 +5105,7 @@ var XY_PATCH = {
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
     'Mime Jr.': { types: ['Psychic', 'Fairy'] },
+    Misdreavus: { types: ['Ghost', 'Fairy'] },
     'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     Nidoking: { bs: { at: 102 } },
     Nidoqueen: { bs: { at: 92 } },
