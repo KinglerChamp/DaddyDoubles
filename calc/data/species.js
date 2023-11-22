@@ -1248,7 +1248,7 @@ var GSC_PATCH = {
     },
     Meganium: {
         types: ['Grass'],
-        bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
+        bs: { hp: 85, at: 82, df: 100, sa: 83, sd: 110, sp: 80 },
         weightkg: 100.5
     },
     Miltank: {
@@ -5101,6 +5101,7 @@ var XY_PATCH = {
     Marill: { types: ['Water', 'Fairy'] },
     Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
+    Meganium: { types: ['Grass', 'Fairy'] },
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
     'Mime Jr.': { types: ['Psychic', 'Fairy'] },
