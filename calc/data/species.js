@@ -5595,7 +5595,7 @@ var XY_PATCH = {
         baseSpecies: 'Audino'
     },
     'Banette-Mega': {
-        types: ['Ghost'],
+        types: ['Ghost', 'Dark'],
         bs: { hp: 64, at: 165, df: 75, sa: 93, sd: 83, sp: 75 },
         weightkg: 13,
         abilities: { 0: 'Prankster' },
@@ -5609,7 +5609,7 @@ var XY_PATCH = {
         baseSpecies: 'Beedrill'
     },
     'Blastoise-Mega': {
-        types: ['Water'],
+        types: ['Water', 'Steel'],
         bs: { hp: 79, at: 103, df: 120, sa: 135, sd: 115, sp: 78 },
         weightkg: 101.1,
         abilities: { 0: 'Mega Launcher' },
