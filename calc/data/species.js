@@ -1203,7 +1203,7 @@ var GSC_PATCH = {
     },
     Ledian: {
         types: ['Bug', 'Flying'],
-        bs: { hp: 55, at: 35, df: 50, sa: 55, sd: 110, sp: 85 },
+        bs: { hp: 55, at: 80, df: 50, sa: 55, sd: 110, sp: 85 },
         weightkg: 35.6
     },
     Ledyba: {
