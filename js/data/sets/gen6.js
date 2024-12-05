@@ -1,6 +1,5 @@
 /* AUTOMATICALLY GENERATED FROM @smogon/sets, DO NOT EDIT! */
-var SETDEX_XY = {
-    "Abomasnow":{"Parasol Lady Angelica ":{"level":60,"ability":"Snow Warning","item":"Assault Vest","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Blizzard","Rock Slide","Giga Drain","Ice Shard",]},
+var SETDEX_XY = {"Abomasnow":{"Parasol Lady Angelica ":{"level":60,"ability":"Snow Warning","item":"Assault Vest","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Blizzard","Rock Slide","Giga Drain","Ice Shard",]},
     "Elite Four Glacia":{"level":100,"ability":"Snow Warning","item":"Focus Sash","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Giga Drain","Leech Seed","Rock Slide","Protect",]}},
     "Absol":{"Elite Four Sidney ":{"level":100,"ability":"Pressure","item":"Absolite","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Fire Blast","Sucker Punch","Superpower","Rock Slide",]},
     "Beauty Jessica":{"level":62,"ability":"Super Luck","item":"Red Card","nature":"Hardy","ivs":{"hp":31,"at":31,"df":31,"sa":31,"sd":31,"sp":31},"moves":["Play Rough","Knock Off","Iron Tail","Megahorn",]}},
